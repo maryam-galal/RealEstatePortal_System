@@ -49,6 +49,21 @@
     <ClCompile Include="Property.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="LogIn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Register.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserHomePage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserProfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Admin.h">
@@ -60,5 +75,36 @@
     <ClInclude Include="Property.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="LogIn.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Register.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="UserHomePage.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="UserProfile.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="LogIn.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="Register.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="UserHomePage.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="UserProfile.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="RegisterFile.txt" />
   </ItemGroup>
 </Project>

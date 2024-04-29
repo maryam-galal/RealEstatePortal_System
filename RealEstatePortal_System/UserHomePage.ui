@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>RealEstatePortal_SystemClass</class>
- <widget class="QMainWindow" name="RealEstatePortal_SystemClass">
+ <class>UserHomePageClass</class>
+ <widget class="QMainWindow" name="UserHomePageClass">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1247</width>
-    <height>754</height>
+    <width>1251</width>
+    <height>731</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>RealEstatePortal_System</string>
+   <string>UserHomePage</string>
   </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="QLabel" name="label">
@@ -19,7 +19,7 @@
      <rect>
       <x>0</x>
       <y>0</y>
-      <width>1261</width>
+      <width>1251</width>
       <height>731</height>
      </rect>
     </property>
@@ -27,18 +27,34 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../../../Desktop/HomePage1.png</pixmap>
+     <pixmap>D:/Downloads/Untitled.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="RegisterButton">
+   <widget class="QPushButton" name="UserProfileButton">
     <property name="geometry">
      <rect>
-      <x>75</x>
-      <y>366</y>
-      <width>170</width>
+      <x>770</x>
+      <y>50</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="LogOutButton">
+    <property name="geometry">
+     <rect>
+      <x>14</x>
+      <y>460</y>
+      <width>171</width>
       <height>61</height>
      </rect>
     </property>
@@ -49,13 +65,13 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="logInButton">
+   <widget class="QPushButton" name="PropertiesWindow">
     <property name="geometry">
      <rect>
-      <x>76</x>
-      <y>466</y>
-      <width>169</width>
-      <height>61</height>
+      <x>1020</x>
+      <y>50</y>
+      <width>161</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="text">
@@ -71,7 +87,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1247</width>
+     <width>1251</width>
      <height>21</height>
     </rect>
    </property>
@@ -87,8 +103,6 @@
   <widget class="QStatusBar" name="statusBar"/>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
- <resources>
-  <include location="RealEstatePortal_System.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>

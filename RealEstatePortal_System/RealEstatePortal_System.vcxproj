@@ -92,19 +92,35 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="LogIn.cpp" />
     <ClCompile Include="Property.cpp" />
+    <ClCompile Include="Register.cpp" />
+    <ClCompile Include="Source.cpp" />
     <ClCompile Include="User.cpp" />
+    <ClCompile Include="UserHomePage.cpp" />
+    <ClCompile Include="UserProfile.cpp" />
     <QtRcc Include="RealEstatePortal_System.qrc" />
+    <QtUic Include="LogIn.ui" />
     <QtUic Include="RealEstatePortal_System.ui" />
     <QtMoc Include="RealEstatePortal_System.h" />
     <ClCompile Include="Admin.cpp" />
     <ClCompile Include="RealEstatePortal_System.cpp" />
     <ClCompile Include="main.cpp" />
+    <QtUic Include="Register.ui" />
+    <QtUic Include="UserHomePage.ui" />
+    <QtUic Include="UserProfile.ui" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Admin.h" />
+    <QtMoc Include="UserProfile.h" />
+    <QtMoc Include="UserHomePage.h" />
+    <QtMoc Include="LogIn.h" />
     <ClInclude Include="Property.h" />
+    <QtMoc Include="Register.h" />
     <ClInclude Include="User.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="RegisterFile.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
